@@ -73,6 +73,7 @@ html {
 
 .diagrams {
   display: flex;
+  gap: -100px;
 }
 
 .days {
@@ -80,7 +81,30 @@ html {
   flex-direction: column;
 }
 
-.mon {
+.texbox-date {
+  padding-bottom: 3px;
+  border-bottom: 1px solid #e3fafc76;
+  margin-bottom: 20px;
+}
+
+.textbox-text {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.img-cloud {
+  height: 70px;
+  width: 70px;
+  margin-bottom: 20px;
+}
+
+.mon,
+.tue,
+.wed,
+.thu,
+.fri,
+.sat,
+.sun {
   position: relative;
 }
 
@@ -90,10 +114,6 @@ html {
   text-align: center;
 }
 
-/* .img {
-  z-index: 1;
-} */
-
 .weekday-textbox {
   position: absolute;
   top: 15%;
@@ -102,7 +122,7 @@ html {
   flex-direction: column;
   padding: 15px;
   z-index: 1;
-  width: 220px;
+  width: 160px;
   background-color: #0b7385a7;
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
