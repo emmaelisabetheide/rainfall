@@ -12,7 +12,7 @@ Shadow:
 */
 
 /* FONT SIZE ***********************/
-/* 18px | 48px | */
+/* 14px | 18px | 48px | */
 
 /* SPACE ***************************/
 /* 
@@ -30,7 +30,7 @@ margin: 15px 0;
 
 html {
   background-color: #e3fafc;
-  color: #0b7285;
+  color: #e3fafc;
   font-family: sans-serif;
 }
 
@@ -46,27 +46,66 @@ html {
   text-transform: uppercase;
   letter-spacing: 5px;
   margin-bottom: 5px;
+  color: #0b7285;
 }
 
 .title-text {
   font-size: 18px;
+  color: #0b7285;
 }
 
 .card {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #fff;
+  background-color: #0b7385a7;
   gap: 30px;
   margin-top: 40px;
   width: 60vw;
   padding: 15px;
   border-radius: 20px;
-  box-shadow: 2px 10px 20px #0b738516;
+  box-shadow: 2px 10px 20px #0b738568;
 }
 
 .dates-title {
   font-size: 18px;
+}
+
+.diagrams {
+  display: flex;
+}
+
+.days {
+  display: flex;
+  flex-direction: column;
+}
+
+.mon {
+  position: relative;
+}
+
+.weekday {
+  font-size: 14px;
+  grid-column: 1;
+  text-align: center;
+}
+
+/* .img {
+  z-index: 1;
+} */
+
+.weekday-textbox {
+  position: absolute;
+  top: 15%;
+  left: 61%;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  z-index: 1;
+  width: 220px;
+  background-color: #0b7385a7;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 
 footer {
