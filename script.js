@@ -18,11 +18,12 @@ const thuTextBox = document.querySelector("#thu");
 const friTextBox = document.querySelector("#fri");
 const satTextBox = document.querySelector("#sat");
 const sunTextBox = document.querySelector("#sun");
+const textB = document.querySelectorAll("weekday-textbox");
 
 // DISPLAY AND HIDE
 const toggle = function (testTube, box) {
-  testTube.classList.add("display");
-  box.classList.remove("hide");
+  testTube.classList.toggle("display");
+  box.classList.toggle("hide");
   if (testTube != monEl) {
     monEl.classList.remove("display");
     monTextBox.classList.add("hide");
@@ -74,4 +75,10 @@ satEl.addEventListener("click", function () {
 });
 sunEl.addEventListener("click", function () {
   toggle(sunEl, sunTextBox);
+});
+
+// HIDE ALL TEXTBOXES
+Window.addEventListener("click", function () {
+  days.classList.remove("display");
+  textB.classList.add("hide");
 });
