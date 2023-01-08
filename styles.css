@@ -52,6 +52,7 @@ html {
 .title-text {
   font-size: 18px;
   color: #0b7285;
+  margin-bottom: 30px;
 }
 
 .card {
@@ -60,12 +61,35 @@ html {
   align-items: center;
   background-color: #0b7385a7;
   gap: 30px;
-  margin-top: 40px;
   width: 60vw;
   padding: 25px 15px;
   border-radius: 20px;
   box-shadow: 2px 10px 20px #0b738568;
-  overflow: hidden;
+
+  position: relative;
+}
+
+.btns {
+  display: flex;
+  width: 62vw;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.btn {
+  padding: 8px 16px;
+  border-radius: 50px;
+  content: "◀︎ Previous week";
+  background-color: #add8df;
+  box-shadow: 1px 5px 10px #0b73851f;
+  cursor: pointer;
+  align-self: center;
+}
+
+.btn:hover {
+  background-color: #0b7285;
 }
 
 .dates-title {
