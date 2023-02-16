@@ -18,7 +18,7 @@ The webapp is made as an assignment only.
 - When clicking on a cylinder an overview of precipitation for that day will appear. It will close by clicking again, or click on an other cylinder.
 
 ## Status
-The project is live, but only as a demo for my portfolio.
+The project is live, but only as a demo for my [portfolio.](https://eeheide-portfolio.netlify.app/)
 
 ## Technologies
 The project is created with:
